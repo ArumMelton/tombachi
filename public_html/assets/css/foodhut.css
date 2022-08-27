@@ -15,8 +15,8 @@
   --blue: #79A9F5;
   --indigo: #C45F90;
   --purple: #A16AE8;
-  --pink: #ff214f;
-  --red: #F85C70;
+  --pink: #fc0032;
+  --red: #ec2c46;
   --orange: #FF8882;
   --yellow: #FAD02C;
   --green: #A3C14A;
@@ -25,12 +25,12 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #ff214f;
+  --primary: #ff2121;
   --secondary: #6c757d;
   --success: #A3C14A;
   --info: #47D8E0;
   --warning: #FF8882;
-  --danger: #F85C70;
+  --danger: #e81d38;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
@@ -160,7 +160,7 @@ sup {
 }
 
 a {
-  color: #ff214f;
+  color: #ff2121;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2771,13 +2771,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff214f;
-  border-color: #ff214f;
+  background-color: #ff2121;
+  border-color: #ff2121;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #fa0034;
+  background-color: #fa0034, 0.5;
   border-color: #ed0031;
 }
 
@@ -3602,7 +3602,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #ff214f;
+  background-color: #ff2121;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -11018,6 +11018,14 @@ table, tr, td, th {
   overflow: hidden;
 }
 
+#test-back {
+  height: 100vh;
+  max-height: 900px;
+  background: url(/tombachi/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 750px;
+}
+
 .testmonial-card {
   position: relative;
   text-align: center;
@@ -11168,7 +11176,7 @@ pre {
           transform: translate(-50%, 50%);
   font-weight: bold;
   font-size: 2rem;
-  color: #ff214f;
+  color: #f51f3a;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.2s linear 0s;
@@ -11200,7 +11208,7 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
+  background: url(/tombachi/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
