@@ -11021,7 +11021,7 @@ table, tr, td, th {
 #test-back {
   height: 100vh;
   max-height: 900px;
-  background: url(/tombachi/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
+  background: url(/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
@@ -11208,7 +11208,7 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(/tombachi/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
+  background: url(/public_html/assets/imgs/Fullplate.png) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
