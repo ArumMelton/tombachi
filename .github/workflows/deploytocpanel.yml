@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        entryPoint: /home5/tombachi/tombachirestaurants.com/tombachiftp
+        server-dir: /home5/tombachi/tombachirestaurants.com/tombachiftp
